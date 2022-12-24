@@ -71,7 +71,7 @@ class Solution:
                 arr_comb = []
                 count = 0
         # print(box_arr)
-        
+
         for r in box_arr:
             for c in box_arr:
                 for i in r:
@@ -107,5 +107,5 @@ board2 = [["8","3",".",".","7",".",".",".","."]
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 
-out = s.isValidSudoku(board2)
+out = s.isValidSudoku(board1)
 print(f'{out=}')
