@@ -24,12 +24,12 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
         N = len(matrix)
-        print(matrix)
+        # print(matrix)
         matrix.reverse()
-        print(matrix)
+        # print(matrix)
         for r in range(N):
             for c in range(r):
-                print(r, c,  "=", matrix[r][c], matrix[c][r])
+                # print(r, c,  "=", matrix[r][c], matrix[c][r])
                 matrix[r][c], matrix[c][r] = matrix[c][r], matrix[r][c]
         print(matrix)
 

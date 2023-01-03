@@ -34,9 +34,6 @@ class Solution:
                 if sum == target:
                     return [i,j]
 
-        
-        # return [1,2]
-
 s = Solution()
 # nums, target = [2,7,11,15], 9
 # nums, target = [3,2,4],  6

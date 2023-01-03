@@ -96,12 +96,9 @@ class Solution:
             return 0
         # print(num)
         bb = pow(2, 31)
-        if num < -bb:
-            return -bb
-        elif num > bb - 1:
-            return bb-1
-        else:
-            return num
+        if num < -bb: return -bb
+        elif num > bb - 1: return bb-1
+        else: return num
 
 
 c_class = Solution()
